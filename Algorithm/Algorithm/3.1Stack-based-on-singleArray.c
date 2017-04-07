@@ -1,4 +1,4 @@
-//Chapter3 Stack and Queuues
+//Chapter3 Stack and Queues
 //3.1
 //Describe how you could use a single array to implement three stacks.
 
