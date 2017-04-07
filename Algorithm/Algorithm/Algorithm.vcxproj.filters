@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3.1Stack-based-on-singleArray.c">
+    <ClCompile Include="3.5MyQueueClass-using-two-stacks.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
