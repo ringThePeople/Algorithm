@@ -348,5 +348,6 @@ int main()
 	printf("Push operation %d, Stack : %d\n", 12, 3);
 	Push(pStack, 12, 3);
 	PrintStack(pStack);
-
+	
+	return 0;
 }
