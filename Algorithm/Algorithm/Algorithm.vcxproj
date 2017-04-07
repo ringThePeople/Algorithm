@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3.5MyQueueClass-using-two-stacks.cpp" />
+    <ClCompile Include="4.1Tree-balance-Check.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binary_tree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EF63D585-9C87-49D2-AB6B-64CCB1793A94}</ProjectGuid>
