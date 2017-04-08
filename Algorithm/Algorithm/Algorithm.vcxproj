@@ -19,10 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4.1Tree-balance-Check.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="binary_tree.h" />
+    <ClCompile Include="3.3Set-Of-Stacks.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EF63D585-9C87-49D2-AB6B-64CCB1793A94}</ProjectGuid>
