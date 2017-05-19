@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.graph-info-div {
+	position:absolute;
+	visibility: hidden;
+}
+
+.cy-div {
+    width: 500px;
+    height: 600px;
+    z-index: 999;
+}

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>79f6344f-dd62-4117-90ab-f1438a1249fd</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>framework.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>framework</Name>
+    <RootNamespace>framework</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="framework.py" />
+    <Compile Include="LCA4\run.py" />
+    <Compile Include="LCA4\tools\genie3.py" />
+    <Compile Include="LCA4\tools\hub.py" />
+    <Compile Include="LCA4\tools\repack.py" />
+    <Compile Include="LCA4\tools\__init__.py" />
+    <Compile Include="LCA4\workunit.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="framework\" />
+    <Folder Include="LCA4\" />
+    <Folder Include="LCA4\requested\" />
+    <Folder Include="LCA4\static\" />
+    <Folder Include="LCA4\templates\" />
+    <Folder Include="LCA4\tools\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LCA4\lca_framework_test.tsv" />
+    <Content Include="LCA4\requested\test.txt" />
+    <Content Include="LCA4\run.pyc" />
+    <Content Include="LCA4\static\cy.css" />
+    <Content Include="LCA4\static\cytoscape.js" />
+    <Content Include="LCA4\static\cytoscape.js-2.7.13.zip" />
+    <Content Include="LCA4\static\cytoscape.min.js" />
+    <Content Include="LCA4\static\cy_test.js" />
+    <Content Include="LCA4\static\cy_test2.js" />
+    <Content Include="LCA4\static\cy_test3.js" />
+    <Content Include="LCA4\static\cy_test4.js" />
+    <Content Include="LCA4\static\jquery-3.1.1.slim.min.js" />
+    <Content Include="LCA4\static\LICENSE" />
+    <Content Include="LCA4\static\style.css" />
+    <Content Include="LCA4\templates\file_uploader.html" />
+    <Content Include="LCA4\templates\result_page.html" />
+    <Content Include="LCA4\templates\__init__.html" />
+    <Content Include="LCA4\tools\genie3.pyc" />
+    <Content Include="LCA4\tools\hub.pyc" />
+    <Content Include="LCA4\tools\repack.pyc" />
+    <Content Include="LCA4\tools\__init__.pyc" />
+    <Content Include="LCA4\workunit.pyc" />
+    <Content Include="LCA4\__init__.pyc" />
+    <Content Include="LCA4\새 텍스트 문서.txt" />
+    <Content Include="LCA4\인하대 MRC-20160428.pptx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

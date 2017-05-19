@@ -1,0 +1,22 @@
+{% extends "__init__.html" %}
+{% block content %}
+	<div>Upload file here</div>
+	<div>
+		<form action="" method="post" enctype="multipart/form-data" id="file-uploader">
+			<input type="file" name="timeseries_data"/>
+			<input type="submit" value="Upload File"/>
+			<div id="option-div">
+				<div>Option</div>
+				<input type="radio" name="period_info" value="at_once" checked>No period, whole data at once <br/>
+				<input type="radio" name="period_info" value="available">Period: <input type="textarea" name="period_info_value" value="4">
+			</div>
+		</form>
+		<div>
+			<div>Tools</div>
+			<select name="tool-name" form="file-uploader">
+				<option value="tsv2cy">TSV2Cy</option>
+				<option value="genie3">GENIE3</option>
+			</select>
+		</div>
+	</div>
+{% endblock %}

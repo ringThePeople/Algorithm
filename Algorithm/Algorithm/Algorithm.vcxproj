@@ -18,9 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="4.2Find-out-route-in-graph.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EF63D585-9C87-49D2-AB6B-64CCB1793A94}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
